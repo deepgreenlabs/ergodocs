@@ -45,6 +45,8 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid@8.5.1/dist/mermaid.min.js
  # - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
+  - https://dashboard.letmeexplain.ai/embed/widget-phase1.js
+  - assets/lme.js
 
   
 
@@ -143,7 +145,11 @@ nav:
       - Storage Rent: dev/protocol/storage-rent.md
       - Autolykos: dev/protocol/autolykos-protocol.md
 
-    - Research & Whitepapers: documents.md
+    - Research & Whitepapers: 
+      - documents.md
+      # - Whitepaper I: dev/whitepaper/whitepaper1.md
+      # - Whitepaper II: dev/whitepaper/whitepaper2.md
+      # - Whitepaper III: dev/whitepaper/whitepaper3.md
     - Roadmap:
       - roadmap.md
       - Scaling:
