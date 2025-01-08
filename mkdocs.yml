@@ -74,6 +74,8 @@ plugins:
   - autolinks 
   - tags: # https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/#
       tags_file: tags.md
+  - bibtex:
+      bib_file: "refs.bib"
   # - categories
   # - exclude-search # https://github.com/chrieke/mkdocs-exclude-search
   # - semiliterate # http://studioinfinity.org/semiliterate/mkdocs_semiliterate/plugin/
@@ -83,6 +85,7 @@ plugins:
 
 
 markdown_extensions:
+  - footnotes
   - pymdownx.details  # Adds collapsible content sections with a "details" block.
   - pymdownx.tasklist:  # Enables task lists with checkboxes.
         custom_checkbox: true  # Allows custom checkboxes for task lists.
@@ -147,9 +150,7 @@ nav:
 
     - Research & Whitepapers: 
       - documents.md
-      # - Whitepaper I: dev/whitepaper/whitepaper1.md
-      # - Whitepaper II: dev/whitepaper/whitepaper2.md
-      # - Whitepaper III: dev/whitepaper/whitepaper3.md
+      - Whitepaper I: doc/whitepaper.md
     - Roadmap:
       - roadmap.md
       - Scaling:
